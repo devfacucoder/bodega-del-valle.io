@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.png" />
+    <title>Bodega del Valle</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #f9f6f0"
+      >
+        <div class="container">
+          <img
+            src="./logo-header.png"
+            class="img-fluid"
+            alt="Descripción de la imagen"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ">
+                <a class="nav-link " href="index.html" style="color: #5d1020"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" style="color: #5d1020"
+                  >Nuestros vinos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalogo.html" style="color: #5d1020" >Vinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #5d1020"
+                  >Experiencias</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html" style="color: #5d1020">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center bg-custom-imagen"
+      >
+        <!-- El texto se centra automáticamente por el align-items-center del section -->
+        <h1 class="text-center mb-4 display-3">LA TRADICION DE LO SUBLIME</h1>
+
+        <!-- Contenedor de botones con flex y espacio (gap) -->
+        <div class="hero-overlay d-flex flex-column align-items-center gap-3">
+          <button class="btn-primo px-4 py-2">Nuestros Vinos</button>
+          <button class="btn-segundo px-4 py-2">Contacto</button>
+        </div>
+      </section>
+
+      <section class="w-100 vh-100 bg-white">
+        <div class="container">
+          <div class="row align-items-center g-4 g-lg-5">
+            <!-- Columna Izquierda: Imagen -->
+            <div class="col-12 col-lg-6">
+              <img
+                src="./img/quienes-somos-1.jpg"
+                class="img-fluid rounded shadow-sm w-100"
+                alt="Quiénes Somos - Viñedo"
+              />
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <h2 class="libre-caslon-text-regular mb-3" style="color: #3d1c1e">Quienes Somos</h2>
+             
+
+              <p class="text-muted mb-3">
+                Nuestra historia comienza con un profundo arraigo a la tierra y
+                una devoción inquebrantable por el arte de hacer vino. Durante
+                generaciones, nuestra familia ha cultivado estas vides,
+                transmitiendo saberes antiguos y un respeto reverencial por la
+                naturaleza.
+              </p>
+
+             
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-100 vh-100 bg-white">
+        <div class="container py-4">
+          <div class="row justify-content-center">
+            <!-- Columna centrada con ancho acotado para mantener la legibilidad -->
+            <div
+              class="col-12 col-md-9 col-lg-7 d-flex flex-column align-items-center"
+            >
+              <!-- Título -->
+              <h2 class=" display-5 mb-2 libre-caslon-text-regular" style="color: #3d1c1e">
+                La Empresa
+              </h2>
+
+              <!-- Línea decorativa dorada -->
+              <div
+                class="my-3"
+                style="width: 50px; height: 2px; background-color: #d4af37"
+              ></div>
+
+              <!-- Textos informativos -->
+              <p class="text-muted mb-4 lead fs-6">
+                Fundada bajo los cielos inmensos del Valle Central, Bodega del
+                Valle es el resultado de cuatro generaciones dedicadas al arte
+                de la vitivinicultura. Nuestra filosofía nace del respeto
+                profundo por el terruño, entendiendo que cada botella cuenta la
+                historia del suelo, el clima y las manos que lo cultivan.
+              </p>
+
+            
+
+              <!-- Botón de acción -->
+              <a
+                href="#"
+                class="btn px-4 py-2 text-uppercase fw-semibold tracking-wider text-white border-0 mt-2"
+                style="background-color: #3d1c1e; letter-spacing: 1px"
+              >
+                Saber más
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container py-4">
+          <!-- Encabezado de la sección -->
+          <div class="text-center mb-5">
+            <h2 class="display-5 libre-caslon-text-regular mb-2" style="color: #3d1c1e">
+              Destacados
+            </h2>
+            <p class="text-muted lead fs-6 mb-0">
+              Selecciones exclusivas que capturan la esencia de nuestra bodega.
+            </p>
+          </div>
+
+          <!-- Carrusel de Tarjetas (solo mobile) -->
+          <div class="d-md-none mx-auto" style="max-width: 340px">
+            <div style="background-color: #fdf6f4">
+              <div class="position-relative">
+                <img
+                  id="dcImg"
+                  src="./img/vino-catalogo-1.jpg"
+                  class="w-100"
+                  alt=""
+                  style="max-height: 300px; object-fit: contain"
+                />
+                <button
+                  type="button"
+                  id="dcPrev"
+                  class="btn rounded-circle position-absolute top-50 translate-middle-y d-flex align-items-center justify-content-center"
+                  style="
+                    width: 34px;
+                    height: 34px;
+                    left: -14px;
+                    background-color: rgba(255, 255, 255, 0.75);
+                    color: #5d1020;
+                    border: 1px solid #e5d9d6;
+                  "
+                  aria-label="Anterior"
+                >
+                  &#8249;
+                </button>
+                <button
+                  type="button"
+                  id="dcNext"
+                  class="btn rounded-circle position-absolute top-50 translate-middle-y d-flex align-items-center justify-content-center"
+                  style="
+                    width: 34px;
+                    height: 34px;
+                    right: -14px;
+                    background-color: rgba(255, 255, 255, 0.75);
+                    color: #5d1020;
+                    border: 1px solid #e5d9d6;
+                  "
+                  aria-label="Siguiente"
+                >
+                  &#8250;
+                </button>
+              </div>
+              <div class="text-center px-3 pb-3 pt-2">
+                <span id="dcAnio" class="fw-bold small" style="color: #5d1020"></span>
+                <h3
+                  id="dcTitulo"
+                  class="libre-caslon-text-regular mt-2 mb-2"
+                  style="color: #5d1020; font-size: 1.9rem; line-height: 1.15"
+                ></h3>
+                <p id="dcDesc" class="small text-muted mb-3"></p>
+                <div
+                  class="d-flex justify-content-between align-items-center border-top pt-3"
+                >
+                  <span id="dcPrecio" class="fw-bold text-dark"></span>
+                  <button
+                    type="button"
+                    id="dcVer"
+                    class="btn p-0 text-decoration-none fw-bold small"
+                    style="color: #3d1c1e; letter-spacing: 0.5px"
+                  >
+                    VER DETALLES
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grilla de Tarjetas (3 columnas en md/lg) -->
+          <div class="d-none d-md-flex row row-cols-md-3 g-4 destacados-grid">
+            <!-- Producto 1: Malbec Reserve -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-0 p-3 bg-white">
+                <div class="bg-light p-3 text-center mb-3">
+                  <img
+                    src="./img/vino-catalogo-1.jpg"
+                    class="img-fluid"
+                    alt="Malbec Reserve"
+                    style="max-height: 320px; object-fit: contain"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column text-center p-2">
+                  <span class="text-warning fw-bold small mb-1">2019</span>
+                  <h3 class="card-title libre-caslon-text-regular h4 mb-3" style="color: #3d1c1e">
+                    Malbec Reserve
+                  </h3>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Notas intensas a ciruela y frutos rojos, con un final
+                    persistente y elegante paso por roble francés.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-3 border-top mt-3"
+                  >
+                    <span class="fw-bold text-dark">$45.000</span>
+                    <a
+                      href="#"
+                      class="text-decoration-none fw-bold small tracking-wider"
+                      style="color: #3d1c1e; letter-spacing: 0.5px"
+                      >VER DETALLES</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Producto 2: Cabernet Sauvignon -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-0 p-3 bg-white">
+                <div class="bg-light p-3 text-center mb-3">
+                  <img
+                    src="./img/vino-catalogo-2.jpg"
+                    class="img-fluid"
+                    alt="Cabernet Sauvignon"
+                    style="max-height: 320px; object-fit: contain"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column text-center p-2">
+                  <span class="text-warning fw-bold small mb-1">2018</span>
+                  <h3 class="card-title h4 mb-3 libre-caslon-text-regular" style="color: #3d1c1e">
+                    Cabernet Sauvignon
+                  </h3>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Estructura imponente con taninos firmes, destacando aromas a
+                    especias y pimiento asado.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-3 border-top mt-3"
+                  >
+                    <span class="fw-bold text-dark">$48.500</span>
+                    <a
+                      href="#"
+                      class="text-decoration-none fw-bold small tracking-wider"
+                      style="color: #3d1c1e; letter-spacing: 0.5px"
+                      >VER DETALLES</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Producto 3: Chardonnay Gran Cru -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-0 p-3 bg-white">
+                <div class="bg-light p-3 text-center mb-3">
+                  <img
+                    src="./img/vino-catalogo-3.jpg"
+                    class="img-fluid"
+                    alt="Chardonnay Gran Cru"
+                    style="max-height: 320px; object-fit: contain"
+                  />
+                </div>
+                <div class="card-body d-flex flex-column text-center p-2">
+                  <span class="text-warning fw-bold small mb-1">2021</span>
+                  <h3 class="card-title h4 mb-3 libre-caslon-text-regular" style="color: #3d1c1e">
+                    Chardonnay Gran Cru
+                  </h3>
+                  <p class="card-text text-muted small flex-grow-1">
+                    Fresco y mineral, con sutiles notas a vainilla y frutas
+                    blancas de carozo. Acidez vibrante.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-3 border-top mt-3"
+                  >
+                    <span class="fw-bold text-dark">$35.000</span>
+                    <a
+                      href="#"
+                      class="text-decoration-none fw-bold small tracking-wider"
+                      style="color: #3d1c1e; letter-spacing: 0.5px"
+                      >VER DETALLES</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 bg-light">
+        <div class="container py-4">
+          <!-- Título de la sección -->
+          <div class="text-center mb-5">
+            <h2 class="display-5 libre-caslon-text-regular mb-2" style="color: #3d1c1e">
+              Reviews
+            </h2>
+            <!-- Línea decorativa dorada -->
+            <div
+              class="mx-auto"
+              style="width: 50px; height: 2px; background-color: #d4af37"
+            ></div>
+          </div>
+
+          <!-- Grilla de Testimonios (2 columnas) -->
+          <div class="row row-cols-1 row-cols-md-2 g-5 justify-content-center">
+            <!-- Review 1 -->
+            <div class="col">
+              <div class="d-flex flex-column h-100 px-3 px-lg-4">
+                <!-- Comillas doradas -->
+                <span
+                  class="display-3 fw-bold leading-none mb-1"
+                  style="color: #f1dfa4; line-height: 1"
+                  >“</span
+                >
+
+                <!-- Cita en cursiva -->
+                <blockquote
+                  class="blockquote fst-italic fs-5 text-dark mb-4 flex-grow-1"
+                  style="font-family: Georgia, serif; line-height: 1.5"
+                >
+                  "Una visita inolvidable. El Malbec Reserve es poesía
+                  embotellada, y la hospitalidad en la finca refleja la
+                  verdadera pasión por el vino."
+                </blockquote>
+
+                <!-- Autor del testimonio -->
+                <div class="d-flex align-items-center mt-auto">
+                  <img
+                    src="./img/avatar-javier.jpg"
+                    class="rounded-circle me-3 object-fit-cover"
+                    width="48"
+                    height="48"
+                    alt="Javier M."
+                  />
+                  <div>
+                    <h6
+                      class="fw-bold mb-0 text-uppercase tracking-wider"
+                      style="
+                        color: #3d1c1e;
+                        font-size: 0.85rem;
+                        letter-spacing: 0.5px;
+                      "
+                    >
+                      JAVIER M.
+                    </h6>
+                    <small class="text-muted" style="font-size: 0.75rem"
+                      >Sommelier, Buenos Aires</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="col">
+              <div class="d-flex flex-column h-100 px-3 px-lg-4">
+                <!-- Comillas doradas -->
+                <span
+                  class="display-3 fw-bold leading-none mb-1"
+                  style="color: #f1dfa4; line-height: 1"
+                  >“</span
+                >
+
+                <!-- Cita en cursiva -->
+                <blockquote
+                  class="blockquote fst-italic fs-5 text-dark mb-4 flex-grow-1"
+                  style="font-family: Georgia, serif; line-height: 1.5"
+                >
+                  "El respeto por la tierra se saborea en cada copa. El
+                  Chardonnay es excepcionalmente fresco, con un equilibrio que
+                  pocos logran."
+                </blockquote>
+
+                <!-- Autor del testimonio -->
+                <div class="d-flex align-items-center mt-auto">
+                  <img
+                    src="./img/avatar-elena.jpg"
+                    class="rounded-circle me-3 object-fit-cover"
+                    width="48"
+                    height="48"
+                    alt="Elena S."
+                  />
+                  <div>
+                    <h6
+                      class="fw-bold mb-0 text-uppercase tracking-wider"
+                      style="
+                        color: #3d1c1e;
+                        font-size: 0.85rem;
+                        letter-spacing: 0.5px;
+                      "
+                    >
+                      ELENA S.
+                    </h6>
+                    <small class="text-muted" style="font-size: 0.75rem"
+                      >Crítica Gastronómica</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN: NEWSLETTER / ÚNETE A NUESTRA MESA -->
+    
+
+      <!-- FOOTER -->
+      <footer class="pt-5 pb-3 bg-fondo2" style="color: #f9f6f0">
+        <div class="container pb-4">
+          <div class="row g-4 justify-content-between">
+            <!-- Columna 1: Marca y Redes -->
+            <div class="col-12 col-md-4 col-lg-3">
+              <h3 class="h4 fw-bold mb-3" style="color: #f9f6f0">
+                Bodega del Valle
+              </h3>
+              <p class="small text-white-50 mb-3">
+                Artesanía en cada racimo, herencia en cada botella. Descubra la
+                esencia de nuestro valle.
+              </p>
+              <!-- Iconos sociales / enlaces -->
+              <div class="d-flex gap-3 text-white-50">
+                <a href="#" class="text-reset text-decoration-none"
+                  ><i class="bi bi-share"></i
+                ></a>
+                <a href="#" class="text-reset text-decoration-none"
+                  ><i class="bi bi-house"></i
+                ></a>
+                <a href="#" class="text-reset text-decoration-none"
+                  ><i class="bi bi-globe"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Columna 2: Contacto -->
+            <div class="col-12 col-md-4 col-lg-3">
+              <h6
+                class="fw-bold text-uppercase mb-3 tracking-wider"
+                style="color: #f9f6f0; font-size: 0.8rem; letter-spacing: 1px"
+              >
+                CONTACTO
+              </h6>
+              <ul
+                class="list-unstyled small text-white-50 d-flex flex-column gap-2 mb-0"
+              >
+                <li class="d-flex align-items-start gap-2">
+                  <i class="bi bi-geo-alt mt-1"></i>
+                  <span>Ruta de la Vid 1240, Valle Central</span>
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <i class="bi bi-envelope"></i>
+                  <span>contacto@bodegadelvalle.com</span>
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <i class="bi bi-telephone"></i>
+                  <span>+54 261 455-8900</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-2">
+              <h6
+                class="fw-bold text-uppercase mb-3 tracking-wider"
+                style="color: #f9f6f0; font-size: 0.8rem; letter-spacing: 1px"
+              >
+                NAVEGACION
+              </h6>
+              <ul class="list-unstyled small text-white-50 d-flex flex-column gap-2 mb-0">
+                <li>
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >Nuestra Bodega</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white-50">Vinos</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >Enoturismo</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-white-50"
+                    >Club del Vino</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Columna 4: Newsletter Secundario -->
+            <div class="col-12 col-md-6 col-lg-3">
+              <h6
+                class="fw-bold text-uppercase mb-3 tracking-wider"
+                style="color: #f9f6f0; font-size: 0.8rem; letter-spacing: 1px"
+              >
+                NEWSLETTER
+              </h6>
+              <p class="small text-white-50 mb-3">
+                Únase a nuestra mesa. Reciba notas de cata y primicias de
+                cosechas exclusivas.
+              </p>
+              <form>
+                <input
+                  type="email"
+                  class="form-control bg-transparent border-0 border-bottom rounded-0 px-0 py-1 mb-3 small"
+                  placeholder="Su correo electrónico"
+                  style="border-color: rgba(249, 246, 240, 0.4) !important; color: #f9f6f0"
+                />
+                <button
+                  type="submit"
+                  class="btn-primo text-white rounded-0 w-100 py-2 text-uppercase fw-semibold tracking-wider"
+                >
+                  SUSCRIBIRSE
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+    </main>
+
+    <div
+      class="modal fade"
+      id="mobileVinoModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="max-width: 360px"
+      >
+        <div
+          class="modal-content border-0 rounded-0"
+          style="background-color: #fdf6f4"
+        >
+          <div class="modal-body p-3 p-sm-4">
+            <div class="position-relative">
+              <img
+                id="mvImg"
+                src="./img/vino-catalogo-3.jpg"
+                class="w-100"
+                alt=""
+                style="max-height: 300px; object-fit: contain"
+              />
+              <button
+                type="button"
+                id="mvPrev"
+                class="btn rounded-circle position-absolute top-50 start-0 translate-middle-y d-flex align-items-center justify-content-center"
+                style="width: 32px; height: 32px; background-color: #e9e2e0; color: #5d1020"
+                aria-label="Anterior"
+              >
+                &#8249;
+              </button>
+              <button
+                type="button"
+                id="mvNext"
+                class="btn rounded-circle position-absolute top-50 end-0 translate-middle-y d-flex align-items-center justify-content-center"
+                style="width: 32px; height: 32px; background-color: #e9e2e0; color: #5d1020"
+                aria-label="Siguiente"
+              >
+                &#8250;
+              </button>
+            </div>
+            <div class="text-center mt-3">
+              <span id="mvAnio" class="fw-bold small" style="color: #5d1020"></span>
+              <h3
+                id="mvTitulo"
+                class="libre-caslon-text-regular h3 mt-2 mb-2"
+                style="color: #3d1c1e"
+              ></h3>
+              <p id="mvDesc" class="small text-muted mb-3"></p>
+              <div
+                class="d-flex justify-content-between align-items-center border-top pt-3"
+              >
+                <span id="mvPrecio" class="fw-bold text-dark"></span>
+                <a
+                  href="contacto.html"
+                  class="text-decoration-none fw-bold small"
+                  style="color: #3d1c1e; letter-spacing: 0.5px"
+                  >VER DETALLES</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      (function () {
+        var MOBILE_BREAKPOINT = 768;
+        var cards = Array.prototype.slice.call(
+          document.querySelectorAll(".destacados-grid .card")
+        );
+        if (!cards.length) return;
+
+        var modalEl = document.getElementById("mobileVinoModal");
+        var modal = modalEl ? new bootstrap.Modal(modalEl) : null;
+        var current = 0;
+
+        function getData(card) {
+          var img = card.querySelector("img");
+          return {
+            img: img.src,
+            alt: img.alt,
+            anio: card.querySelector(".text-warning").textContent.trim(),
+            titulo: card.querySelector(".card-title").textContent.trim(),
+            desc: card.querySelector(".card-text").textContent.trim(),
+            precio: card.querySelector(".fw-bold.text-dark").textContent.trim()
+          };
+        }
+
+        function renderCarousel(index) {
+          current = (index + cards.length) % cards.length;
+          var data = getData(cards[current]);
+          document.getElementById("dcImg").src = data.img;
+          document.getElementById("dcImg").alt = data.alt;
+          document.getElementById("dcAnio").textContent = data.anio;
+          document.getElementById("dcTitulo").textContent = data.titulo;
+          document.getElementById("dcDesc").textContent = data.desc;
+          document.getElementById("dcPrecio").textContent = data.precio;
+        }
+
+        function renderModal() {
+          if (!modal) return;
+          var data = getData(cards[current]);
+          document.getElementById("mvImg").src = data.img;
+          document.getElementById("mvImg").alt = data.alt;
+          document.getElementById("mvAnio").textContent = data.anio;
+          document.getElementById("mvTitulo").textContent = data.titulo;
+          document.getElementById("mvDesc").textContent = data.desc;
+          document.getElementById("mvPrecio").textContent = data.precio;
+        }
+
+        function step(delta) {
+          renderCarousel(current + delta);
+          renderModal();
+        }
+
+        renderCarousel(0);
+
+        document.getElementById("dcPrev").addEventListener("click", function () {
+          step(-1);
+        });
+        document.getElementById("dcNext").addEventListener("click", function () {
+          step(1);
+        });
+        document.getElementById("dcVer").addEventListener("click", function () {
+          renderModal();
+          if (modal) modal.show();
+        });
+
+        if (modalEl) {
+          document.getElementById("mvPrev").addEventListener("click", function () {
+            step(-1);
+          });
+          document.getElementById("mvNext").addEventListener("click", function () {
+            step(1);
+          });
+
+          window.addEventListener("resize", function () {
+            if (window.innerWidth >= MOBILE_BREAKPOINT) modal.hide();
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
